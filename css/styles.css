@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat';
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 h1 {
   font-weight: 900;
@@ -42,7 +42,6 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 300;
-
 }
 
 /* Hero Banner */
@@ -53,6 +52,10 @@ p {
   margin: 0 0 30px;
 }
 
+.hero-image-col {
+  position: relative;
+}
+
 /* Download Buttons */
 .download-btn {
   margin: 5% 3% 5% 0%;
@@ -60,14 +63,15 @@ p {
 
 /* Title Image */
 .title-img {
-  width: 260px;
-  object-fit: contain;
+  width: 60%;
   transform: rotate(25deg);
-  margin-left: 70px;
+  position: absolute;
+  right: 30%;
 }
 
 /* Feature Block */
 #features {
+  position: relative;
   background: #fff;
   padding: 7% 15%;
 }
@@ -127,4 +131,51 @@ p {
 }
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta {
+  padding: 7% 15%;
+  color: #fff;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 10% 15% 7%;
+}
+.social-block {
+  margin: 10px auto;
+}
+.social-icon {
+  padding: 20px 10px;
+}
+
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 1160px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .title-img {
+    right: 15%;
+  }
 }
