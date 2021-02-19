@@ -32,6 +32,19 @@ p {
   padding: 7% 15%;
 }
 
+/*******************/
+/* Section Styling */
+/*******************/
+.colored-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
 /************/
 /* Headings */
 /************/
@@ -67,14 +80,9 @@ p {
 /***************/
 /* Hero Banner */
 /***************/
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 .hero-banner {
@@ -111,7 +119,6 @@ p {
 /*****************/
 #features {
   position: relative;
-  background: #fff;
 }
 
 .feature-item {
@@ -132,7 +139,6 @@ p {
 /***********************/
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -153,7 +159,6 @@ p {
 #press {
   padding-bottom: 5%;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .press-image {
@@ -163,7 +168,6 @@ p {
 
 /* Pricing Section */
 #pricing {
-  background: #fff;
   padding: 100px;
 }
 
@@ -171,18 +175,7 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA Section */
-#cta {
-  color: #fff;
-  background-color: #ff4c68;
-}
-
 /* Footer */
-#footer {
-  background-color: #fff;
-  color: #000;
-}
-
 .social-block {
   margin: 10px auto;
 }
@@ -209,7 +202,7 @@ p {
   h1 {
     font-size: 3rem;
   }
-  
+
   .title-img {
     right: 15%;
   }
